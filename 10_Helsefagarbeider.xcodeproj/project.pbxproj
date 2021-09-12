@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7307C53F26BFFE1B00D6769A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C53E26BFFE1B00D6769A /* AppDelegate.swift */; };
+		7307C54126BFFE1B00D6769A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C54026BFFE1B00D6769A /* SceneDelegate.swift */; };
+		7307C54326BFFE1B00D6769A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C54226BFFE1B00D6769A /* ViewController.swift */; };
+		7307C54626BFFE1B00D6769A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7307C54426BFFE1B00D6769A /* Main.storyboard */; };
+		7307C54826BFFE2700D6769A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7307C54726BFFE2700D6769A /* Assets.xcassets */; };
+		7307C54B26BFFE2700D6769A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7307C54926BFFE2700D6769A /* LaunchScreen.storyboard */; };
+		7307C55326C0033600D6769A /* Introfilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C55226C0033600D6769A /* Introfilm.swift */; };
+		7307C55526C0034300D6769A /* Introfilm2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C55426C0034300D6769A /* Introfilm2.swift */; };
+		7307C55726C005E400D6769A /* Pulsmaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C55626C005E300D6769A /* Pulsmaling.swift */; };
+		7307C55926C008B500D6769A /* Respirasjon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C55826C008B500D6769A /* Respirasjon.swift */; };
+		7307C55B26C009F500D6769A /* Oksygen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C55A26C009F500D6769A /* Oksygen.swift */; };
+		7307C55D26C00F6200D6769A /* DragnDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307C55C26C00F6200D6769A /* DragnDrop.swift */; };
+		732FEAA826D782BF0097B0A8 /* ObsSykepleier.png in Resources */ = {isa = PBXBuildFile; fileRef = 732FEAA726D782BF0097B0A8 /* ObsSykepleier.png */; };
+		732FEAAC26D789A80097B0A8 /* Avslutning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732FEAAB26D789A80097B0A8 /* Avslutning.swift */; };
+		738046A826CF8CD4003D1704 /* SecondaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738046A626CF8CD4003D1704 /* SecondaryVC.swift */; };
+		738046A926CF8CD4003D1704 /* SecondaryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738046A726CF8CD4003D1704 /* SecondaryVC.xib */; };
+		738046AB26CFA433003D1704 /* Obsskjema.png in Sources */ = {isa = PBXBuildFile; fileRef = 738046AA26CFA433003D1704 /* Obsskjema.png */; };
+		738998A226DE550200AD08A5 /* Jukselapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738998A126DE550200AD08A5 /* Jukselapp.swift */; };
+		738998A426DE5A5800AD08A5 /* SBAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 738998A326DE55C600AD08A5 /* SBAR.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7307C53B26BFFE1B00D6769A /* 10_Helsefagarbeider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10_Helsefagarbeider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7307C53E26BFFE1B00D6769A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7307C54026BFFE1B00D6769A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7307C54226BFFE1B00D6769A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7307C54526BFFE1B00D6769A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7307C54726BFFE2700D6769A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7307C54A26BFFE2700D6769A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7307C54C26BFFE2800D6769A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7307C55226C0033600D6769A /* Introfilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introfilm.swift; sourceTree = "<group>"; };
+		7307C55426C0034300D6769A /* Introfilm2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Introfilm2.swift; sourceTree = "<group>"; };
+		7307C55626C005E300D6769A /* Pulsmaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsmaling.swift; sourceTree = "<group>"; };
+		7307C55826C008B500D6769A /* Respirasjon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respirasjon.swift; sourceTree = "<group>"; };
+		7307C55A26C009F500D6769A /* Oksygen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oksygen.swift; sourceTree = "<group>"; };
+		7307C55C26C00F6200D6769A /* DragnDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragnDrop.swift; sourceTree = "<group>"; };
+		732FEAA726D782BF0097B0A8 /* ObsSykepleier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ObsSykepleier.png; path = ../../ObsSykepleier.png; sourceTree = "<group>"; };
+		732FEAAB26D789A80097B0A8 /* Avslutning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avslutning.swift; sourceTree = "<group>"; };
+		738046A626CF8CD4003D1704 /* SecondaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryVC.swift; sourceTree = "<group>"; };
+		738046A726CF8CD4003D1704 /* SecondaryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondaryVC.xib; sourceTree = "<group>"; };
+		738046AA26CFA433003D1704 /* Obsskjema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Obsskjema.png; sourceTree = "<group>"; };
+		738998A126DE550200AD08A5 /* Jukselapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jukselapp.swift; sourceTree = "<group>"; };
+		738998A326DE55C600AD08A5 /* SBAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SBAR.png; path = ../../SBAR.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7307C53826BFFE1B00D6769A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7307C53226BFFE1B00D6769A = {
+			isa = PBXGroup;
+			children = (
+				738998A326DE55C600AD08A5 /* SBAR.png */,
+				732FEAA726D782BF0097B0A8 /* ObsSykepleier.png */,
+				738046AA26CFA433003D1704 /* Obsskjema.png */,
+				7307C53D26BFFE1B00D6769A /* 10_Helsefagarbeider */,
+				7307C53C26BFFE1B00D6769A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7307C53C26BFFE1B00D6769A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7307C53B26BFFE1B00D6769A /* 10_Helsefagarbeider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7307C53D26BFFE1B00D6769A /* 10_Helsefagarbeider */ = {
+			isa = PBXGroup;
+			children = (
+				7307C53E26BFFE1B00D6769A /* AppDelegate.swift */,
+				7307C54026BFFE1B00D6769A /* SceneDelegate.swift */,
+				7307C54226BFFE1B00D6769A /* ViewController.swift */,
+				7307C55226C0033600D6769A /* Introfilm.swift */,
+				7307C55426C0034300D6769A /* Introfilm2.swift */,
+				732FEAAB26D789A80097B0A8 /* Avslutning.swift */,
+				738998A126DE550200AD08A5 /* Jukselapp.swift */,
+				7307C55626C005E300D6769A /* Pulsmaling.swift */,
+				7307C55826C008B500D6769A /* Respirasjon.swift */,
+				738046A626CF8CD4003D1704 /* SecondaryVC.swift */,
+				738046A726CF8CD4003D1704 /* SecondaryVC.xib */,
+				7307C55A26C009F500D6769A /* Oksygen.swift */,
+				7307C55C26C00F6200D6769A /* DragnDrop.swift */,
+				7307C54426BFFE1B00D6769A /* Main.storyboard */,
+				7307C54726BFFE2700D6769A /* Assets.xcassets */,
+				7307C54926BFFE2700D6769A /* LaunchScreen.storyboard */,
+				7307C54C26BFFE2800D6769A /* Info.plist */,
+			);
+			path = 10_Helsefagarbeider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7307C53A26BFFE1B00D6769A /* 10_Helsefagarbeider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7307C54F26BFFE2800D6769A /* Build configuration list for PBXNativeTarget "10_Helsefagarbeider" */;
+			buildPhases = (
+				7307C53726BFFE1B00D6769A /* Sources */,
+				7307C53826BFFE1B00D6769A /* Frameworks */,
+				7307C53926BFFE1B00D6769A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 10_Helsefagarbeider;
+			productName = 10_Helsefagarbeider;
+			productReference = 7307C53B26BFFE1B00D6769A /* 10_Helsefagarbeider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7307C53326BFFE1B00D6769A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Mariel Aulie Hinderaker";
+				TargetAttributes = {
+					7307C53A26BFFE1B00D6769A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 7307C53626BFFE1B00D6769A /* Build configuration list for PBXProject "10_Helsefagarbeider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7307C53226BFFE1B00D6769A;
+			productRefGroup = 7307C53C26BFFE1B00D6769A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7307C53A26BFFE1B00D6769A /* 10_Helsefagarbeider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7307C53926BFFE1B00D6769A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732FEAA826D782BF0097B0A8 /* ObsSykepleier.png in Resources */,
+				7307C54B26BFFE2700D6769A /* LaunchScreen.storyboard in Resources */,
+				738046A926CF8CD4003D1704 /* SecondaryVC.xib in Resources */,
+				738998A426DE5A5800AD08A5 /* SBAR.png in Resources */,
+				7307C54826BFFE2700D6769A /* Assets.xcassets in Resources */,
+				7307C54626BFFE1B00D6769A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7307C53726BFFE1B00D6769A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738046AB26CFA433003D1704 /* Obsskjema.png in Sources */,
+				7307C55B26C009F500D6769A /* Oksygen.swift in Sources */,
+				7307C55926C008B500D6769A /* Respirasjon.swift in Sources */,
+				7307C54326BFFE1B00D6769A /* ViewController.swift in Sources */,
+				7307C55526C0034300D6769A /* Introfilm2.swift in Sources */,
+				7307C53F26BFFE1B00D6769A /* AppDelegate.swift in Sources */,
+				7307C55726C005E400D6769A /* Pulsmaling.swift in Sources */,
+				7307C55326C0033600D6769A /* Introfilm.swift in Sources */,
+				738998A226DE550200AD08A5 /* Jukselapp.swift in Sources */,
+				738046A826CF8CD4003D1704 /* SecondaryVC.swift in Sources */,
+				7307C54126BFFE1B00D6769A /* SceneDelegate.swift in Sources */,
+				732FEAAC26D789A80097B0A8 /* Avslutning.swift in Sources */,
+				7307C55D26C00F6200D6769A /* DragnDrop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7307C54426BFFE1B00D6769A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7307C54526BFFE1B00D6769A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7307C54926BFFE2700D6769A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7307C54A26BFFE2700D6769A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7307C54D26BFFE2800D6769A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7307C54E26BFFE2800D6769A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7307C55026BFFE2800D6769A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHBK53P5AL;
+				INFOPLIST_FILE = 10_Helsefagarbeider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aulieh.-0-Helsefagarbeider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7307C55126BFFE2800D6769A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHBK53P5AL;
+				INFOPLIST_FILE = 10_Helsefagarbeider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Aulieh.-0-Helsefagarbeider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7307C53626BFFE1B00D6769A /* Build configuration list for PBXProject "10_Helsefagarbeider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7307C54D26BFFE2800D6769A /* Debug */,
+				7307C54E26BFFE2800D6769A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7307C54F26BFFE2800D6769A /* Build configuration list for PBXNativeTarget "10_Helsefagarbeider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7307C55026BFFE2800D6769A /* Debug */,
+				7307C55126BFFE2800D6769A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7307C53326BFFE1B00D6769A /* Project object */;
+}
